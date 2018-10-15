@@ -1,5 +1,14 @@
 ## VERBS
 
+install.packages("gapminder")
+library(gapminder)
+install.packages("dplyr")
+library(dplyr)
+install.packages("ggplot2")
+library(ggplot2)
+
+# filter by year 
+# %>% means to pipe what's on left to right
 # Filter
 gapminder %>% 
   filter(year==2007)
@@ -113,3 +122,10 @@ ggplot(gapminder_2007, aes(x=lifeExp)) +
 # Boxplot
 ggplot(gapminder_2007, aes(x=continent, y=lifeExp)) +
   geom_boxplot()
+
+gapminder_2007 <- gapminder %>%
+  filter(year == 2007)
+
+ggplot(gapminder_2007, aes(x = lifeExp)) + 
+  geom_histogram(binwidth = 5) + 
+  ggtitle("My title")
