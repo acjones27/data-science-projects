@@ -1,0 +1,5 @@
+SP*
+*.Rproj*
+*.RData
+*.Rhistory
+*.DS_Store
