@@ -122,3 +122,35 @@ sw4$Title
 
 # Is the release year of sw4 later than sw3?
 sw4$Year > sw3$Year
+
+# haven is already loaded
+install.packages("haven")
+library(haven)
+
+# Import person.sav: traits
+traits <- read_sav("http://assets.datacamp.com/production/course_1478/datasets/person.sav")
+
+# Summarize traits
+summary(traits)
+
+# Print out a subset
+subset(traits, Extroversion > 40 & Agreeableness > 40)
+# Count them
+nrow(subset(traits, Extroversion > 40 & Agreeableness > 40))
+
+install.packages("foreign")
+library(foreign)
+
+# If you're familiar with statistics, you'll have heard about Pearson's Correlation. 
+# It is a measurement to evaluate the linear dependency between two variables, say X and Y. 
+# It can range from -1 to 1; 
+# if it's close to 1 it means that there is a strong positive association between the variables. 
+# If X is high, also Y tends to be high.
+# If it's close to -1, there is a strong negative association: 
+# If X is high, Y tends to be low. 
+# When the Pearson correlation between two variables is 0, these variables are possibly independent: 
+# there is no association between X and Y.
+
+# You can calculate the correlation between two vectors with the cor() function. 
+# Take this code for example, that computes the correlation between the columns height and width of a fictional data frame size:
+# cor(size$height, size$width)
