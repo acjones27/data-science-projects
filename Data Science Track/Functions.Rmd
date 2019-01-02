@@ -1,0 +1,27 @@
+---
+title: "Functions in R"
+output: html_notebook
+---
+Run: *Cmd+Shift+Enter*
+New Chunk: *Cmd+Option+I*
+Preview: *Cmd+Shift+K*
+
+The function template is a useful way to start writing a function:
+```{r}
+my_fun <- function(arg1, arg2) {
+  # body
+}
+```
+
+Define ratio() function
+```{r}
+ratio <- function(x, y) {
+  x / y
+}
+```
+
+Call ratio() with arguments 3 and 4
+```{r}
+ratio(3, 4)
+```
+
