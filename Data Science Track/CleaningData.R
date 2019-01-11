@@ -456,3 +456,87 @@ plastic <- str_detect(food3$packaging, "plasti")
 
 # Print the sum of plastic
 sum(plastic)
+
+# Load the gdata package
+library(gdata)
+
+# Import the spreadsheet: att
+att = read.xls("attendance.xls")
+
+# Print the column names 
+names(att)
+
+# Print the first 6 rows
+head(att, nrows = 6)
+
+# Print the last 6 rows
+tail(att, nrows = 6)
+
+# Print the structure
+str(att)
+
+# read.xls() function skips empty rows such as the 11th and 17th
+# read.xls() function actually imported the first row of the original data frame as the variable name for the first column. Did you notice that the first 6 rows of att aren't the same as the first six rows you saw in the original spreadsheet? What about the 11th and 17th rows?
+
+# compare with the spreadsheet
+# http://s3.amazonaws.com/assets.datacamp.com/production/course_1294/datasets/attendance_screenshot.png
+
+# remove unnecessary rows
+
+# Create remove
+remove <- c(3,56,57,58,59)
+
+# Create att2
+att2 <- att[-remove, ]
+
+# remove unnecessary columns
+
+# Create remove
+remove <- c(3, 5, 7, 9, 11, 13, 15, 17)
+
+# Create att3
+att3 <- att2[, -remove]
+
+# In this data frame, columns 1, 6, and 7 represent attendance data for US elementary schools, columns 1, 8, and 9 represent data for secondary schools, and columns 1 through 5 represent data for all schools in the US.
+# 
+# Each of these should be stored as its own separate data frame, so you'll split them up here.
+
+# Subset just elementary schools: att_elem
+att_elem <- att3[, c(1,6,7)]
+
+# Subset just secondary schools: att_sec
+att_sec <- att3[, c(1,8,9)]
+
+# Subset all schools: att4
+att4 <- att3[, 1:5]
+
+# Define cnames vector (don't change)
+cnames <- c("state", "avg_attend_pct", "avg_hr_per_day", 
+            "avg_day_per_yr", "avg_hr_per_yr")
+
+# Assign column names of att4
+colnames(att4) <- cnames
+
+# Remove first two rows of att4: att5
+att5 <- att4[-c(1,2),]
+
+# View the names of att5
+names(att5)
+
+# Remove all periods in state column
+att5$state <- str_replace_all(att5$state, "\\.", "")
+
+# Remove white space around state names
+att5$state <- str_trim(att5$state)
+
+# View the head of att5
+head(att5)
+
+library(dplyr)
+example <- mutate_at(att5, vars(-state), funs(as.numeric))
+
+# Define vector containing numerical columns: cols
+cols <- -1
+
+# Use sapply to coerce cols to numeric
+att5[, cols] <- sapply(att5[, cols], as.numeric)
