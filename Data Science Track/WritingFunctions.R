@@ -1,3 +1,7 @@
+install.packages("here")
+library(here)
+here::here()
+
 df <- data.frame(
   a = rnorm(10),
   b = rnorm(10),
