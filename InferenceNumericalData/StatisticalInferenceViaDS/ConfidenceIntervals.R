@@ -249,3 +249,51 @@ virtual_prop_red <- virtual_prop_red %>%
     lower_ci = p_hat - MoE,
     upper_ci = p_hat + MoE
   )
+
+# Comparing two proportions
+# Fifty adults who thought they were being considered for an appearance on the show were interviewed by a show recruiter (“confederate”) who either yawned or did not. Participants then sat by themselves in a large van and were asked to wait. While in the van, the Mythbusters watched via hidden camera to see if the unaware participants yawned.
+mythbusters_yawn
+
+# Using the janitor package
+mythbusters_yawn %>% 
+  tabyl(group, yawn) %>% # contingency table
+  adorn_percentages() %>% # change to proportions by row
+  adorn_pct_formatting() %>% # format as percentages
+  adorn_ns() # To show original counts as well
+
+# We are interested in comparing the proportion of those that yawned after seeing a seed versus those that yawned with no seed interaction. We’d like to see if the difference between these two proportions is significantly larger than 0. 
+
+# We are calling a success having a yawn value of "yes".
+# Our response variable will always correspond to the variable used in the success so the response variable is yawn.
+# The explanatory variable is the other variable of interest here: group.
+
+mythbusters_yawn %>% 
+  specify(formula = yawn ~ group, success = "yes")
+
+# We next want to calculate the statistic of interest for our sample. This corresponds to the difference in the proportion of successes.
+
+obs_diff <- mythbusters_yawn %>% 
+  specify(formula = yawn ~ group, success = "yes") %>% 
+  calculate(stat = "diff in props", order = c("seed", "control")) # order here means seed - control
+obs_diff
+
+# This value represents the proportion of those that yawned after seeing a seed yawn (0.2941) minus the proportion of those that yawned with not seeing a seed (0.25).
+
+# Our next step in building a confidence interval is to create a bootstrap distribution of statistics (differences in proportions of successes)
+
+head(mythbusters_yawn)
+
+bootstrap_distribution <- mythbusters_yawn %>% 
+  specify(formula = yawn ~ group, success = "yes") %>% 
+  generate(reps = 1000) %>% 
+  calculate(stat = "diff in props", order = c("seed", "control"))
+
+bootstrap_distribution %>% 
+  visualize(bins = 20)
+
+# This distribution is roughly symmetric and bell-shaped but isn’t quite there. Let’s use the percentile-based method to compute a 95% confidence interval for the true difference in the proportion of those that yawn with and without a seed presented.
+
+bootstrap_distribution %>% 
+  get_ci(type = "percentile", level = 0.95)
+
+# Since the CI includes 0, we aren't sure which has the higher proportion of yawns
