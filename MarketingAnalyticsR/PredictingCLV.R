@@ -39,3 +39,19 @@ summary(salesSimpleModel)
 
 # About how much of the variation in the sales in this month can be explained by the sales of the previous three months?
 # Looking at R-sq, about 59% of the data can be explained by this model
+
+# Estimating the full model except id
+salesModel1 <- lm(salesThisMon ~ . - id, 
+                  data = salesData)
+
+# Checking variance inflation factors
+vif(salesModel1)
+
+# Estimating new model by removing information on brand
+salesModel2 <- lm(salesThisMon ~ . -id -preferredBrand -nBrands, 
+                  data = salesData)
+
+# Checking variance inflation factors
+vif(salesModel2)
+
+# Good job! Since none of the variance inflation factors is greater than 10 we can certainly accept the second model.
