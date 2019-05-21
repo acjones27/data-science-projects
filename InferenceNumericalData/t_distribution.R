@@ -42,17 +42,37 @@ y < z
 # - Independent observations (random sampling, sample size < 10% of population)
 # - Sample size/skew: The more skewed the original population, the larger the sample size should be
 
-# t.test(gss$moredays, conf.level = 0.95)
+### DO NOT RUN CODE BELOW, AS NO DATASET COULD BE FOUND
+
+t.test(gss$moredays, conf.level = 0.95)
 # outputs a bunch of stuff and then a CI 5.273 6.147
 
 # "We are 95% confident that the average number of days per month americans work overtime is between 5.27 and 6.15"
 
 # When given one argument, t.test() tests whether the population mean of its input is different than 0. That is H0:μdiff=0 and HA:μdiff≠0. It also provides a 95% confidence interval.
-# 
-# # Filter for employed respondents
-# acs12_emp <- acs12 %>%
-#   filter(employment == "employed")
-# 
-# # Construct 95% CI for avg time_to_work
-# t.test(acs12_emp$time_to_work, conf.level = 0.95)
 
+# Filter for employed respondents
+acs12_emp <- acs12 %>%
+  filter(employment == "employed")
+
+# Construct 95% CI for avg time_to_work
+t.test(acs12_emp$time_to_work, conf.level = 0.95)
+
+# Run a t-test on hrs_work and look at the CI
+t.test(acs12_emp$hrs_work)
+
+# The CI output is 38.05811 39.80429
+# For this analysis, it would have made more sense to use a subset excluding part time workers.
+
+
+# A random sample was taken of nearly 10% of UCLA courses. The most expensive textbook for each course was identified, and its price at the UCLA Bookstore and on Amazon.com were recorded. These data are recorded in the textbooks dataset. We want to test whether there is a difference between the average prices of textbooks sold in the bookstore vs. on Amazon.
+# Since the book price data are paired (the price of the same book at the two stores are not independent), rather than using individual variables for the prices from each store, you will look at the a single variables of the differences in price. The diff column the UCLA Bookstore price minus the Amazon.com price for each book
+
+# Run a t-test on diff with a 90% CI
+t.test(textbooks$diff, conf.level = 0.9)
+
+# Same with 95% CI
+t.test(textbooks$diff, conf.level = 0.95)
+
+# Same with 99% CI
+t.test(textbooks$diff, conf.level = 0.99)
