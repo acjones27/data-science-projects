@@ -1,6 +1,7 @@
 library(dplyr)
 library(corrplot)
 library(ggplot2)
+library(car)
 # The dataset salesData is loaded in the workspace. It contains information on customers for the months one to three. Only the sales of month four are included.
 
 salesData <- read.csv("https://assets.datacamp.com/production/repositories/1861/datasets/c18f1ab90ca134ecd8ab51ed34d285df9fc3059b/salesData.csv")
@@ -55,3 +56,26 @@ salesModel2 <- lm(salesThisMon ~ . -id -preferredBrand -nBrands,
 vif(salesModel2)
 
 # Good job! Since none of the variance inflation factors is greater than 10 we can certainly accept the second model.
+
+# Model validation, Model fit, and Prediction
+# Coefficient of determination R-squared tells you how much of the variation in your response variable is explained by the model
+# F-test tells you if this amount is significant or not
+
+# Overfitting happens when the model we create models not only the regression line but also the residuals
+# Methods to avoid overfitting
+# AIC() from stats package --> Used to compare two models, pick the one with the lowest AIC
+# stepAIC() from MASS package
+# out-of-sample model validation
+# cross-validation
+
+salesData2_4 <- read.csv("https://assets.datacamp.com/production/repositories/1861/datasets/cd1d99b917950fe8598a55fec5f884f04765a3aa/salesDataMon2To4.csv")
+
+
+# getting an overview of new data
+summary(salesData2_4)
+
+# predicting sales
+predSales5 <- predict(salesModel2, newdata = salesData2_4)
+
+# calculating mean of future sales
+mean(predSales5)
