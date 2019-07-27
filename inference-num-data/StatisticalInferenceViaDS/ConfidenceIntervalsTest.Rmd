@@ -1,0 +1,76 @@
+---
+title: "ConfidenceIntervals"
+author: "Anna Jones"
+date: "15/05/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Confidence Intervals
+
+### Intro
+
+Looking at the book
+
+Statistical Inference via Data Science
+A moderndive into R and the tidyverse
+
+https://moderndive.com/9-confidence-intervals.html#needed-packages-6
+
+Chapter 9: Confidence Intervals
+
+***
+
+### Libraries
+
+```{r libraries}
+library(dplyr)
+library(ggplot2)
+library(janitor)
+library(moderndive)
+library(infer)
+```
+
+The moderndive package contains a sample of 40 pennies collected and minted in the United States. Let’s explore this sample data first:
+
+```{r}
+pennies_sample
+```
+
+### Exploratory Analysis
+
+First, let’s visualize the values in this sample as a histogram:
+
+```{r}
+ggplot(pennies_sample, aes(x = age_in_2011)) +
+  geom_histogram(bins = 10, color = "white")
+```
+
+We see a roughly symmetric distribution here that has quite a few values near 20 years in age with only a few larger than 40 years or smaller than 5 years. If pennies_sample is a representative sample from the population, we’d expect the age of all US pennies collected in 2011 to have a similar shape, a similar spread, and similar measures of central tendency like the mean.
+
+```{r}
+```
+
+
+```{r}
+```
+
+
+```{r}
+```
+
+
+```{r}
+```
+
+
+```{r}
+```
+
+
+```{r}
+```
+
