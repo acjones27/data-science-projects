@@ -3,3 +3,4 @@ SP*
 *.Rhistory
 *.DS_Store
 .Rproj.user
+*.csv
