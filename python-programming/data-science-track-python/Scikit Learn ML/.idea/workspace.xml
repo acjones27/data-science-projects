@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b1a06533-f6d3-4051-ba87-f2a0ab844052" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Scikit Learn ML.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelling-scikit-learn.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelling-scikit-learn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KaggleCourseML/intermediate_ml_categorical_vars.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KaggleCourseML/intermediate_ml_pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KaggleCourseML/intro_ml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MediumArticles/bayesian_ab_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spark/.ipynb_checkpoints/spark_tutorial_ironhack-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spark/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spark/Notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spark/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spark/spark_tutorial_ironhack.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../basic-statistics/Basic Statistics.Rproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../basic-statistics/BasicsR.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../basic-statistics/ExploringData.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Case Studies Stat Thinking/.ipynb_checkpoints/Fish sleep and bacteria growth-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Case Studies Stat Thinking/2013_FINA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Case Studies Stat Thinking/2015_FINA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Case Studies Stat Thinking/Fish sleep and bacteria growth.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Case Studies Stat Thinking/bout_lengths_wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Case Studies Stat Thinking/gandhi_et_al_bouts.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Case Studies Stat Thinking/oklahoma_earthquakes_1950-2017.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Case Studies Stat Thinking/park_bacterial_growth.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Case Studies Stat Thinking/parkfield_earthquakes_1950-2017.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Data Science Toolbox/.ipynb_checkpoints/Case Study-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Data Science Toolbox/.ipynb_checkpoints/Function arguments and Scope-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Data Science Toolbox/.ipynb_checkpoints/Iterators-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Data Science Toolbox/.ipynb_checkpoints/Lambdas and Error handling-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Data Science Toolbox/.ipynb_checkpoints/List comprehension and generators-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Data Science Toolbox/.ipynb_checkpoints/Writing Functions-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Data Science Toolbox/Case Study.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Data Science Toolbox/Function arguments and Scope.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Data Science Toolbox/Iterators.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Data Science Toolbox/Lambdas and Error handling.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Data Science Toolbox/List comprehension and generators.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Data Science Toolbox/Writing Functions.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Data Science Toolbox/tweets.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Data Science Toolbox/world_ind_pop_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Intermediate Python/.ipynb_checkpoints/Intermediate python-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Intermediate Python/Intermediate python.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Intermediate Python/brics.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Intermediate Python/cars.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Intermediate Python/gapminder.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Intro Python/.ipynb_checkpoints/Intermediate python-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Intro Python/.ipynb_checkpoints/Intro Python-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Intro Python/.ipynb_checkpoints/Intro to R-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Intro Python/Intro Python.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Intro Python/Intro to R.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Intro Python/get-pip.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Intro Python/mlb.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Intro Python/soccer.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Statistical Thinking 1/.ipynb_checkpoints/Graphical exploratory data analysis-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Statistical Thinking 1/2008_all_states.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Statistical Thinking 1/2008_swing_states.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Statistical Thinking 1/Graphical exploratory data analysis.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Statistical Thinking 1/belmont.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Statistical Thinking 1/iris.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Statistical Thinking 1/michelson_speed_of_light.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Statistical Thinking 2/.ipynb_checkpoints/Parameter Estimation by Optimization-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Statistical Thinking 2/Parameter Estimation by Optimization.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Statistical Thinking 2/anscombe.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Statistical Thinking 2/bee_sperm.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Statistical Thinking 2/female_literacy_fertility.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Statistical Thinking 2/finch_beaks_1975.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Statistical Thinking 2/finch_beaks_2012.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Statistical Thinking 2/fortis_beak_depth_heredity.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Statistical Thinking 2/frog_tongue.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Statistical Thinking 2/mlb_nohitters.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Statistical Thinking 2/scandens_beak_depth_heredity.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-python/Statistical Thinking 2/sheffield_weather_station.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/CleaningData.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Data Science Track.Rproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/DataVizGgplot2_Part1.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/ExploratoryDataAnalysis.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/ExploratoryDataAnalysisCaseStudy.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/FoundationsOfInference.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Functions.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Functions.Rmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Functions.nb.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/ImportingData.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/ImportingDataPart2.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/IntroTidyverse.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/IntroToDplyr.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/JoiningData.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/aerosmith/aerosmith.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/aerosmith/greatest_hits.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/complete.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/definitive.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/eagles/eagles1971.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/eagles/eagles1974.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/elvis/elvis_movies.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/elvis/elvis_songs.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/hank_williams/hank_charts.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/hank_williams/hank_years.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/jimi_hendrix/discography.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/jimi_hendrix/jimi1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/jimi_hendrix/jimi2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/jimi_hendrix/jimi3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/julie_andrews/singers.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/julie_andrews/two_songs.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/lahmanNames.rds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/live.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/michael_jackson/michael1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/michael_jackson/michael10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/michael_jackson/michael2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/michael_jackson/michael3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/michael_jackson/michael4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/michael_jackson/michael5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/michael_jackson/michael6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/michael_jackson/michael7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/michael_jackson/michael8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/michael_jackson/michael9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/movies/movie_directors.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/movies/movie_songs.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/movies/movie_studios.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/movies/movie_years.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/musicals/composers.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/musicals/show_songs.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/musicals/shows.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/musicals/stage_songs.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/musicals/stage_writers.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/sides/side_one.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/sides/side_two.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/soundtrack.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/supergroups.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/top_sellers/eighties.rds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/top_sellers/seventies.rds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/Joining Data/top_sellers/sixties.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/PlotlyInR.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/R_DataScience_Book.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/SummarizeGroupByDplyr.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/WritingFunctions.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/attendance.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/bmi.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/census.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/cities.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/cities2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/cities3.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/cities4.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/descriptions.rds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/diamonds.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/diamonds.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/diamonds.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/disc.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/disc_big.rds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/disc_new.rds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/disc_small.rds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/fake_data_sep_unite.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/fake_dob_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/international.sav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/mbta.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/shinydashboard.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/social.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/students.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/swimming_pools.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/urbanpop.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data-science-track-r/votes.rds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../deep-learning/.ipynb_checkpoints/Deep Learning Tutorial-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../deep-learning/Deep Learning Tutorial.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ds-command-line/ch04/data/finn.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ds-command-line/ch04/top-words.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ds-command-line/ch04/top-words.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ds-command-line/ch04/top-words.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../hypothesis-test-example.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../importing-data-part2.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../inference-num-data/InferenceNumericalData.Rproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../inference-num-data/StatisticalInferenceViaDS/ConfidenceIntervals.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../inference-num-data/StatisticalInferenceViaDS/ConfidenceIntervalsTest.Rmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../inference-num-data/StatisticalInferenceViaDS/HypothesisTesting.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../inference-num-data/bootstrapping.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../inference-num-data/t_distribution.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interactive-widgets/.ipynb_checkpoints/ipy-widgets walkthrough-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../interactive-widgets/ipy-widgets walkthrough.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../marketing-analytics-r/MarketingAnalyticsR.Rproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../marketing-analytics-r/PredictingCLV.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../marketing-analytics-r/PredictingChurn.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../microsoft-ml-crash-course/exercises/feature_crosses.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../microsoft-ml-crash-course/exercises/feature_sets.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../microsoft-ml-crash-course/exercises/first_steps_with_tensor_flow.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../microsoft-ml-crash-course/exercises/improving_neural_net_performance.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../microsoft-ml-crash-course/exercises/intro_to_fairness.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../microsoft-ml-crash-course/exercises/intro_to_neural_nets.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../microsoft-ml-crash-course/exercises/intro_to_sparse_data_and_embeddings.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../microsoft-ml-crash-course/exercises/logistic_regression.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../microsoft-ml-crash-course/exercises/multi-class_classification_of_handwritten_digits.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../microsoft-ml-crash-course/exercises/synthetic_features_and_outliers.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../microsoft-ml-crash-course/exercises/validation.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../microsoft-ml-crash-course/prework/creating_and_manipulating_tensors.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../microsoft-ml-crash-course/prework/hello_world.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../microsoft-ml-crash-course/prework/intro_to_pandas.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../microsoft-ml-crash-course/prework/tensorflow_programming_concepts.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../plotly-r/IntroPlotly.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../plotly-r/Plotly in R.Rproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../plotly-r/TurnoutRates.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../plotly-r/fl_results.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../plotly-r/vgsales.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practical-ds-book/ExploringData.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practical-ds-book/ManagingData.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practical-ds-book/custdata.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../python/practice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../r4ds/.Rprofile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../r4ds/MLCheatSheet.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../r4ds/MLCheatSheet.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../r4ds/data_transformation_dplyr.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../r4ds/diamonds.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../r4ds/diamonds.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../r4ds/diamonds.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../r4ds/functions.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../r4ds/programming.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../r4ds/r4ds.Rproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../r4ds/relational_data.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../r4ds/tidy_data.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../solution_pandoc_version_trycatch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stat-modelling-computational-technique/ConfidenceIntervalBootstrap.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stat-modelling-computational-technique/TotalPartialRelationships.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tensor-flow/.ipynb_checkpoints/DataCamp - Intro to TF-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tensor-flow/DataCamp - Intro to TF.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tidyverse-cookbook/Program.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tidyverse-cookbook/Tidyverse Cookbook.Rproj" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modelling-scikit-learn.ipynb">
+          <provider selected="true" editor-type-id="jupyter-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modelling-scikit-learn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#4#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/modelling-scikit-learn.ipynb" />
+        <option value="$PROJECT_DIR$/modelling-scikit-learn.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Scikit Learn ML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scikit Learn ML" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1a06533-f6d3-4051-ba87-f2a0ab844052" name="Default Changelist" comment="" />
+      <created>1567504599551</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567504599551</updated>
+      <workItem from="1567504600847" duration="3103000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3103000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3313253" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="R Packages" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="R Graphics" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/modelling-scikit-learn.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modelling-scikit-learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#4#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
