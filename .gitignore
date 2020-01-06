@@ -4,3 +4,6 @@ SP/*
 *.DS_Store
 .Rproj.user
 *.csv
+*.png
+*.jpeg
+*.jpg
